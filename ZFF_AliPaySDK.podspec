@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ZFF_AliPaySDK"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "A short description of ZFF_AliPaySDK."
 
   s.description  = <<-DESC
@@ -32,16 +32,16 @@ Pod::Spec.new do |s|
 
 
   
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  #s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
-  s.resources = "Framework/AlipaySDK.bundle"
-  s.vendored_frameworks = "Framework/*.framework"
+  s.resources = "AlipaySDK.bundle"
+  s.vendored_frameworks = "*.framework"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
